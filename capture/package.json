@@ -1,0 +1,14 @@
+{
+  "name": "logiwebconnect-capture",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Re-capture logiwebconnect.com for offline use",
+  "scripts": {
+    "capture": "node capture.js",
+    "rewrite": "node rewrite.js",
+    "write-mirror": "node write-mirror.js"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  }
+}

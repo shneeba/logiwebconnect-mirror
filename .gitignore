@@ -1,0 +1,21 @@
+# The captured site — Logitech's proprietary app, firmware, fonts and assets.
+# Produced locally by capture.js and NEVER committed: this repo ships only the tooling.
+mirror/
+
+# Capture intermediates / per-run artifacts (regenerated each run)
+capture/url-map.json
+capture/session.har
+capture/_dump.json
+capture/node_modules/
+
+# Playwright-MCP browser session debris
+.playwright-mcp/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+*.swp
+
+# Python bytecode
+__pycache__/
+*.pyc
